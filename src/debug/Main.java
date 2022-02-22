@@ -114,9 +114,9 @@ public class Main {
          *         aus. Das Objekt befindet sich nicht mehr im richtigem Slot im HashSet der Ihrem
          *         Wert entspricht.
          */
-        System.out.println("-----Geht nicht-----");
+        System.out.println("-----Muß mit meinem Sorter angegeben werden. Wenn ich keinen gemacht hätte und es default wäre müßte ich das nicht-----");
         System.out.println("-----BinarySearch-----");
-        int search = Collections.binarySearch(lList,vw4);
+        int search = Collections.binarySearch(lList,vw4, new SorterByYear());
         System.out.println("Die Suche hat folgendes ergeben: " + search);
 
         System.out.println("----Search all Models by Year------");
